@@ -1,0 +1,4 @@
+CC=gcc
+
+all: processinstruction.c
+	$(CC)  -o processinstruction  IR_Parse.c processinstruction.c EA_calc.c single_exec.c -I.

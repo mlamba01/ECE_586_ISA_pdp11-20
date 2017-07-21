@@ -1,0 +1,10 @@
+
+mode		Eff_Address	# ReadMems	pseudocode
+0		none			none			reg
+1		reg			0			mem[reg]
+2		reg			0			mem[reg]
+3		mem[reg]		1			mem[mem[reg]]
+4		reg			0			mem[reg]
+5		mem[reg]		1			mem[mem[reg]]
+6		reg+X		1			mem[reg+X]
+7		mem[reg+X]	2			mem[mem[reg+X]]

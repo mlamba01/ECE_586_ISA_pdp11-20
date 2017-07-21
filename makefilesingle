@@ -1,0 +1,4 @@
+CC=gcc
+
+all: single_exec-TEST.c
+	$(CC)  -o single  IR_Parse.c single_exec-TEST.c -I.
